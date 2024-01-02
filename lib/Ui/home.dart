@@ -51,8 +51,8 @@ class _HomeState extends State<Home> {
                       Container(width:220,child: Text(data.data![index].title.toString(),style: TextStyle(fontSize: 16,fontWeight: FontWeight.bold,color: Colors.lightGreenAccent),)),
                       Row(
                         children: [
-                          Text('Episodes :  ',style: TextStyle(fontSize: 12,color: Colors.greenAccent),),
-                          Text(data.data![index].episodes.toString(),style: TextStyle(fontSize: 12,color: Colors.greenAccent),),
+                          Text('Episodes :  ',style: TextStyle(fontSize: 12,color: Colors.white),),
+                          Text(data.data![index].episodes.toString(),style: TextStyle(fontSize: 12,color: Colors.white),),
                         ],
                       ),
                     ],
